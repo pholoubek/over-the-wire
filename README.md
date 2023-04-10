@@ -27,5 +27,5 @@ We can either specify the exact location and use **cat** or use **redirection** 
 
 [link](https://overthewire.org/wargames/bandit/bandit3.html)
 
-Name of the game is files with spaces in the filename. When we use **cmd** on some <file name>, then **cmd** will treat <file> <name> as two separate args.\
-Instead we have to either escape the whitespace using \ or wrap the <file name> into "" or ''.
+Name of the game is files with spaces in the filename. When we use **cmd** on some \<file name\>, then **cmd** will treat \<file\> \<name\> as two separate args.\
+Instead we have to either escape the whitespace using \ or wrap the \<file name\> into " or '.
