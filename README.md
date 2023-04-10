@@ -29,3 +29,14 @@ We can either specify the exact location and use **cat** or use **redirection** 
 
 Name of the game is files with spaces in the filename. When we use **cmd** on some **\<file name\>**, then **cmd** will treat **\<file\> \<name\>** as two separate args. This will most likely lead to err.\
 Instead we have to either escape the whitespace using \ or wrap the **\<file name\>** into " or '.
+
+## Level 3
+
+[link](https://overthewire.org/wargames/bandit/bandit4.html)
+
+Really not much to do other than read a bit on **ls** cmd and use the appropriate flags.
+
+```
+cd
+ls
+```
