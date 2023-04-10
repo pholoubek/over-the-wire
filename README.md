@@ -40,3 +40,9 @@ Really not much to do other than read a bit on **ls** cmd and use the appropriat
 cd
 ls
 ```
+
+## Level 4
+
+[link](https://overthewire.org/wargames/bandit/bandit5.html)
+
+Get comfortable with **file** cmd. Pipeline for **ls** into **file \*** doesn't work here because filenames are dashed.
