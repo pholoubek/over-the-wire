@@ -68,3 +68,13 @@ file <args>
 Again, **file** cmd is our friend. With a little investigation we find **-group**, **-size** and **-user** flags.
 
 > If someone figured how to hide all the giberish output, pleat DM me.
+
+## Level 7
+
+[link](https://overthewire.org/wargames/bandit/bandit8.html)
+
+```
+grep <args> <filename>
+```
+
+After some reseach on **strings\* & **sort** cmd(s), **grep\*\* did the job.
