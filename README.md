@@ -45,7 +45,7 @@ ls
 
 [link](https://overthewire.org/wargames/bandit/bandit5.html)
 
-Get comfortable with **file** cmd. Pipeline for **ls** into **file \*** doesn't work here because filenames are dashed.
+Get comfortable with **file** cmd. Pipeline from **ls** into **file \*** doesn't work here because filenames are dashed.
 
 ## Level 5
 
@@ -55,4 +55,16 @@ Get comfortable with **file** cmd. Pipeline for **ls** into **file \*** doesn't 
 file <args>
 ```
 
-File cmd is your friend here. Although, the specification also mentions **human-readable** attribute I found the passcode by simply looking for the size and non-executable files.
+The **file** cmd is your friend here. Although, the specification also mentions _human-readable_ attribute, I found the passcode by simply looking for the _size_ and _non-executable_ files.
+
+## Level 6
+
+[link](https://overthewire.org/wargames/bandit/bandit7.html)
+
+```
+file <args>
+```
+
+Again, **file** cmd is our friend. With a little investigation we find **-group**, **-size** and **-user** flags.
+
+> If someone figured how to hide all the giberish output, pleat DM me.
