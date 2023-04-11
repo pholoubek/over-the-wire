@@ -46,3 +46,13 @@ ls
 [link](https://overthewire.org/wargames/bandit/bandit5.html)
 
 Get comfortable with **file** cmd. Pipeline for **ls** into **file \*** doesn't work here because filenames are dashed.
+
+## Level 5
+
+[link](https://overthewire.org/wargames/bandit/bandit6.html)
+
+```
+file <args>
+```
+
+File cmd is your friend here. Although, the specification also mentions **human-readable** attribute I found the passcode by simply looking for the size and non-executable files.
