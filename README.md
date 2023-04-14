@@ -84,3 +84,9 @@ After some reseach on **strings\* & **sort** cmd(s), **grep\*\* did the job.
 [link](https://overthewire.org/wargames/bandit/bandit9.html)
 
 Many solutions but **sort** and **uniq** cmds along with proper flags will do the job.
+
+## Level 9
+
+[link](https://overthewire.org/wargames/bandit/bandit10.html)
+
+The key is not to get bambozzled by the look of the file. It's a hex dump (?) with few human-readable strings. We need to list them.
