@@ -90,3 +90,7 @@ Many solutions but **sort** and **uniq** cmds along with proper flags will do th
 [link](https://overthewire.org/wargames/bandit/bandit10.html)
 
 The key is not to get bambozzled by the look of the file. It's a hex dump (?) with few human-readable strings. We need to list them.
+
+## Level 10
+
+[link](https://overthewire.org/wargames/bandit/bandit11.html)
