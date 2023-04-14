@@ -78,3 +78,9 @@ grep <args> <filename>
 ```
 
 After some reseach on **strings\* & **sort** cmd(s), **grep\*\* did the job.
+
+## Level 8
+
+[link](https://overthewire.org/wargames/bandit/bandit9.html)
+
+Many solutions but **sort** and **uniq** cmds along with proper flags will do the job.
