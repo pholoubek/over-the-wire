@@ -94,3 +94,11 @@ The key is not to get bambozzled by the look of the file. It's a hex dump (?) wi
 ## Level 10
 
 [link](https://overthewire.org/wargames/bandit/bandit11.html)
+
+Really nothing to do as the solution is written in the task.
+
+## Level 11
+
+[link](https://overthewire.org/wargames/bandit/bandit12.html)
+
+Same as before, the solution is really in the hints. It just needs little tweaking with input into appropriate cmd.
