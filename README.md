@@ -102,3 +102,30 @@ Really nothing to do as the solution is written in the task.
 [link](https://overthewire.org/wargames/bandit/bandit12.html)
 
 Same as before, the solution is really in the hints. It just needs little tweaking with input into appropriate cmd.
+
+## Level 12
+
+[link](https://overthewire.org/wargames/bandit/bandit13.html)
+
+This challange requires comfort with using
+
+```
+man <cmd_name>
+
+file <file_name>
+
+gzip <flags> <file_name>
+
+bzip2 <flags> <file_name>
+
+tar <flags> <file_name>
+```
+
+It's of essence to be neat when it comes to decompressing files. Highly recommended to follow the tips on creating dir via
+
+```
+mkdir <dir_path/name>
+```
+
+and moving the initial file.txt into it.
+Remove temp files as you progress
