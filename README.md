@@ -132,4 +132,12 @@ Remove temp files as you progress
 
 ## Level 13
 
-wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
+[link](https://overthewire.org/wargames/bandit/bandit14.html)
+
+This level needs a bit of research but the answer is really in the description. However, I highly suggest to research all the relevant commands.
+
+## Level 14
+
+[link](https://overthewire.org/wargames/bandit/bandit15.html)
+
+Requires a bit of research of relevant commands. However, the name of the game are ports and not neccessarily secured communication!
