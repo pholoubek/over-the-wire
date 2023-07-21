@@ -141,3 +141,15 @@ This level needs a bit of research but the answer is really in the description. 
 [link](https://overthewire.org/wargames/bandit/bandit15.html)
 
 Requires a bit of research of relevant commands. However, the name of the game are ports and not neccessarily secured communication!
+
+## Level 15
+
+```
+openssl magic
+```
+
+combination of `openssl` and `s_client` with some combination of hints provided in the description.
+
+## Level 16
+
+checkpoint: JQttfApK4SeyHwDlI9SXGR50qclOAil1
