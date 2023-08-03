@@ -179,3 +179,11 @@ echo <password> | openssl s_client <magic_args>
 ```
 
 to see which SSL supported port will give us the desired answer
+
+## Level 17
+
+```
+diff <file1> <file2>
+```
+
+there's really not much to say
