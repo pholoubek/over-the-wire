@@ -145,11 +145,37 @@ Requires a bit of research of relevant commands. However, the name of the game a
 ## Level 15
 
 ```
-openssl magic
+openssl s_client <magic_args>
 ```
 
 combination of `openssl` and `s_client` with some combination of hints provided in the description.
 
 ## Level 16
 
-checkpoint: JQttfApK4SeyHwDlI9SXGR50qclOAil1
+First, we need to scan ports on the **localhost** server by using
+
+```
+nc <magic_args>
+```
+
+and then _pipeline_ the output into
+
+```
+grep <magic_match>
+```
+
+> Note! nc <magic_args> output is into stderr not stdout. You must merge stdErr into stdOut output before working with grep cmd
+
+After, we can test ports from the filtered list for SSL service
+
+```
+openssl s_client <magic_args>
+```
+
+and
+
+```
+echo <password> | openssl s_client <magic_args>
+```
+
+to see which SSL supported port will give us the desired answer
