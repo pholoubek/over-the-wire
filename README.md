@@ -197,3 +197,16 @@ The magic is within
 ```
 ssh
 ```
+
+## Level 19
+
+This level deals with **setuid** executable. It takes a bit of research to understand what the executable does
+but the entire solution is within the hint.
+
+Important concepts are **user id**, **groups** and **euid**
+
+helpful cmd
+
+```
+id
+```
