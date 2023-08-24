@@ -189,3 +189,11 @@ diff <file1> <file2>
 there's really not much to say
 
 checkpoint: hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
+
+## Level 18
+
+The magic is within
+
+```
+ssh
+```
