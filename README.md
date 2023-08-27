@@ -213,4 +213,14 @@ id
 
 ## Level 20
 
-VxCazJaVykI6W36BkBU0mJTCM8rR95XT
+This level involves
+
+```
+nc <ARGS>
+
+(optinally) screen or tmux
+
+echo <ARGS>
+```
+
+Read the description carefully! It will involve more than one terminal session and you need to communicate between your server and other session.
